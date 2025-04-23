@@ -12,8 +12,8 @@ import com.azure.core.credential.AzureKeyCredential;
 public class Main {
 
     public static void main(String[] args) {
-        String languageKey = "1GZwBKhU9neNNv3dkgdLbmjurEkqdNlQR6T4KbdIVTh0FU7s7oFQJQQJ99BDACZoyfiXJ3w3AAAaACOGv3OL";
-        String languageEndpoint = "https://dio-language-lab.cognitiveservices.azure.com/";
+        String languageKey = args[0];
+        String languageEndpoint = args[1];
         TextAnalyticsClient client = authenticateClient(languageKey, languageEndpoint);
         sentimentAnalysisWithOpinionMiningExample(client);
     }
