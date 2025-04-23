@@ -7,3 +7,8 @@ Run the Main class inside speechtotext package and pass two arguments:
 - Endpoint url (args[1])
 
 In my case, the endpoint url is https://brazilsouth.api.cognitive.microsoft.com/
+
+## Sentiment analysis and opinion mining example
+
+- Subscription key (args[0])
+- Endpoint url (args[1])
