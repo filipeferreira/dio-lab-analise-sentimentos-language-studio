@@ -1,5 +1,4 @@
-# Lab Análise de Sentimentos DIO Bootcamp Bradesco Java Cloud Nativedio-lab-analise-sentimentos-language-studio
-
+# Lab Análise de Sentimentos DIO Bootcamp Bradesco Java Cloud Native
 ## Speech to Text example
 
 Run the Main class inside speechtotext package and pass two arguments:
